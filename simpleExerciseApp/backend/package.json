@@ -1,0 +1,21 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "A simple MERN exercise application",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js && exit 1",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "Kojo Agyemfra",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12"
+  }
+}
